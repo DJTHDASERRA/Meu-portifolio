@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#navegação{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    text-align: center;
+}
+.menu{
+    background-color: rgb(102, 3, 22);
+    padding: 15pt;
+    margin: 15pt;
+    transition: 1s;
+    text-transform: uppercase;
+    color: rgb(248, 191, 191);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: inline-flex;
+    background-color: black;
+}
+.menu:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    transition: 1s;
+    border-radius: 5pt;
+    text-align: center;
+}
